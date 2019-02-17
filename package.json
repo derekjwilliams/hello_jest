@@ -3,22 +3,22 @@
   "version": "1.0.0",
   "description": "Example npm module using jest for testing.",
   "main": "dist/index.js",
-  "files": ["dist/my_plugin.js", "dist/index.js"],
+  "files": [ "dist/my_plugin.js", "dist/index.js"],
   "dependencies": {
     "jquery": "^3.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.0.3",
+    "babel-eslint": "^10.0.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "coveralls": "^3.0.0",
-    "eslint": "^4.13.0",
-    "eslint-plugin-import": "^2.8.0",
-    "jest": "^22.4.3",
-    "browserify": "*",
-    "opener": "^1.4.0",
-    "parcelify": "^0.12.5"
+    "babel-preset-env": "^1.7.0",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.14.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.1.0",
+    "browserify": "^16.2.3",
+    "opener": "^1.5.1",
+    "parcelify": "^2.2.0"
   },
   "scripts": {
     "build-css": "touch html/bundle.css && parcelify html/entry.js -c html/bundle.css",
